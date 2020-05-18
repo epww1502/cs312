@@ -6,7 +6,6 @@ then
 else
 	echo -e "ssh key is generating..."
 	ssh-keygen -t rsa 
-	$not_my_first_time=1
 fi
 
 echo -e "Copy the SSH key"
